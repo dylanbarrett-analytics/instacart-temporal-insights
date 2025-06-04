@@ -225,7 +225,7 @@ Quantify the behavioral strength of each hour + day segment by combining repurch
 **Purpose:**
 The standardized **Repurchase Momentum Index (RMI)** captures **how fast** customers return to shop and **how much** they buy when they do so. This combination of speed and volume provides a great snapshot of behavioral intensity across time segments — such as "Thursday at 9 AM." Using this approach, high-opportunity time segments can be identified based on collective behavior.
 
-In the previous project (*Instacart Behavioral Buying Patterns*), **Influence Index (II)** was the primary KPI, but it only focused on **product-level strength** tied to **personal shopping habits**. The **RMI**, by contrast, measures **time-based momentum** tied to **collective shopping habits**, offering a much clearer view of **predictability** with regard to the entire customer base. 
+In the previous project (*Instacart Product Buying Patterns*), **Influence Index (II)** was the primary KPI, but it only focused on **product-level strength** tied to **personal shopping habits**. The **RMI**, by contrast, measures **time-based momentum** tied to **collective shopping habits**, offering a much clearer view of **predictability** with regard to the entire customer base. 
 
 **Note:**
 Instead of simply using the raw total item volume, I used the **natural log** of the total item volume. This logarithmic transformation helps to reduce the impact of overpowering high-volume outliers, so they don't skew the data. This natural log application models **diminishing returns** — a key concept in both statistics and behavioral analytics.
@@ -292,7 +292,7 @@ The heart of this dashboard is the **Repurchase Momentum Index (RMI)** — a sta
 
 ## **Final Thoughts**
 
-My previous project (*Instacart Behavioral Buying Patterns*) heavily featured **frequency** and **volume** when it came to purchasing behavior at the individual customer level. While these two measures are certainly impactful and they convey a solid storyline, they didn't tell the full story about the customer base's behavior at scale. In this particular project, incorporating **time elements** opens the door for **behavioral predictability**. This helps uncover moments when shopping patterns are not only strong (customer to customer), but also **reliable** (across the entire customer base).
+My previous project (*Instacart Behavioral Product Patterns*) heavily featured **frequency** and **volume** when it came to purchasing behavior at the individual customer level. While these two measures are certainly impactful and they convey a solid storyline, they didn't tell the full story about the customer base's behavior at scale. In this particular project, incorporating **time elements** opens the door for **behavioral predictability**. This helps uncover moments when shopping patterns are not only strong (customer to customer), but also **reliable** (across the entire customer base).
 
 For business intelligence operations, the awareness of this customer base predictability creates opportunities for strategies that align with high-consistency routines, such as time-targeted promotions and optimized push notifications.
 
