@@ -229,7 +229,7 @@ In the previous project (*Instacart Behavioral Buying Patterns*), **Influence In
 
 **Note:**
 Instead of simply using the raw total item volume, I used the **natural log** of the total item volume. This logarithmic transformation helps to reduce the impact of overpowering high-volume outliers, so they don't skew the data. This natural log application models **diminishing returns** — a key concept in both statistics and behavioral analytics.
-> For example, an increase in total item volume from **1 to 2** (100% increase) has a much more significant impact on the data story than an increase from **1000 to 1001** (0.1% increase). As volume increases, every (identical) increase becomes **less and less meaningful** when it comes to the context of **behavioral momentum**. Logarithmic scaling reflects this statistical reality while still retaining every data point in this analysis.
+> For example, an increase in total item volume from **1 to 2** (100% increase) has a much more significant impact on the data story than an increase from **1000 to 1001** (0.1% increase). As volume increases, every (identical) increase becomes **less and less meaningful** when it comes to the context of **behavioral momentum**. Logarithmic scaling reflects this statistical reality while still retaining every data point in the analysis.
 
 ---
 
