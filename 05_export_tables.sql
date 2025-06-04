@@ -1,0 +1,17 @@
+-- ================================================================================ 
+-- File: 05_export_tables.sql
+-- Project: Instacart Temporal Buying Patterns
+-- Author: Dylan Barrett
+-- Last Updated: May 30, 2025
+--
+-- Description:
+-- This script was originally intended to export final results as CSVs using the 
+-- PostgreSQL COPY command. However, due to local permission limitations, 
+-- CSVs were exported manually via the pgAdmin GUI.
+--
+-- Tables Exported:
+-- - rmi_by_hour_day_final
+-- - hour_day_metrics
+-- ================================================================================
+
+-- NOTE: This script is retained to preserve workflow structure.
