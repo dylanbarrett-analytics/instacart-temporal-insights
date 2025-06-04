@@ -296,7 +296,7 @@ My previous project (*Instacart Behavioral Product Patterns*) heavily featured *
 
 For business intelligence operations, the awareness of this customer base predictability creates opportunities for strategies that align with high-consistency routines, such as time-targeted promotions and optimized push notifications.
 
-In the real world, **timing is everything**. And this project proves it with data.
+In the real world, **timing is everything**. And this project proves it with data. 
 
 ---
 
